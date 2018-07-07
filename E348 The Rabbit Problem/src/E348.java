@@ -3,7 +3,9 @@
  *  Author: nucleusfox
  *
  *  The Rabbit Problem
- *
+ *  Accepts 3 numbers: the initial number of males, the initial number of females,
+ *  and the limit for common amount of rabbits. Prints the generations of rabbits until
+ *  until the common amount reaches the limit.
  *
  *  Reddit DailyProgrammer - #348 [EASY]
  *  https://www.reddit.com/r/dailyprogrammer/comments/7s888w/20180122_challenge_348_easy_the_rabbit_problem/
