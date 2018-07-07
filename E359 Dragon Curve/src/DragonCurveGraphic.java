@@ -88,8 +88,6 @@ public class DragonCurveGraphic {
                 currentPoint[1] += currentVector[1]*BEND_STEP/SIZE_COEFFICIENT;
 
                 lines.add(line);
-                repaint();
-
             }
         }
         public void paintComponent(Graphics g) {
