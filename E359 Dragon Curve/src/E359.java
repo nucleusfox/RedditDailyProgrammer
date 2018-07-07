@@ -34,7 +34,7 @@ public class E359 {
         return auxiliary;
     }
 
-    public static String getSequence(int generation) {
+    public static String getSequenceString(int generation) {
         StringBuilder sb = new StringBuilder();
         short[] bender = new short[1];
         bender[0] = 1;
@@ -45,6 +45,18 @@ public class E359 {
 
         for (short b : bender) sb.append(b);
         return sb.toString();
+    }
+
+    public static short[] getSequence(int generation) {
+        StringBuilder sb = new StringBuilder();
+        short[] bender = new short[1];
+        bender[0] = 1;
+
+        for (int i = 0; i < generation-1; i++) {
+            bender = bend(bender);
+        }
+
+        return bender;
     }
 
     public static void printSequence(short[] bender) {
