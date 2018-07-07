@@ -28,6 +28,7 @@ public class DragonCurveGraphic {
         new Color(134,203,106),
         new Color(134,203,106),
         new Color(134,203,106),
+            new Color(226,88,0),
         new Color(134,203,106),
         new Color(148,221,11),
         new Color(148,221,11),
