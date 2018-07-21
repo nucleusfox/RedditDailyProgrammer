@@ -3,7 +3,8 @@
  *  Author: nucleusfox
  *
  *  Linear Feedback Shift Register
- *  Accepts a line of
+ *  Accepts a line of parameters for shift register. First comes the tap pins for feedback.
+ *  Second feedback operation. After that initial string of bits. The last is number of cycles.
  *
  *  Reddit DailyProgrammer - #347 [Intermediate]
  *  https://www.reddit.com/r/dailyprogrammer/comments/7r17qr/20180117_challenge_347_intermediate_linear/
